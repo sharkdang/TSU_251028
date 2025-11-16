@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    background-color:black;
+    color:white;
+    text-align: center;
+    padding: 15px;
+}
+p {
+  background-color: rgb(161, 161, 161);
+  text-align: center;
+    padding: 10px; 
+}
+a {
+  text-decoration: none; /* Loại bỏ gạch chân */
+  color: #962727;
+  margin-right: 30px; 
+}

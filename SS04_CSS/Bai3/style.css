@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+input{
+    width:200px;
+}
+textarea{
+    width:300px;
+    height:100px;
+}
+button{
+    width:200px;
+    background-color:green;
+    color:white;
+
+}

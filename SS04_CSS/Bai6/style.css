@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    background-color: #fef6d8; /* vàng nhạt */
+    width: 600px;
+    padding: 40px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+    margin-bottom: 20px;
+}
+
+.cls {
+    font-size: 20px;
+    margin: 20px 0 30px;
+}
+
+/* Button */
+.btn {
+    padding: 10px 25px;
+    font-size: 16px;
+    border: 2px solid gray;
+    background: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover đổi màu xanh lá + chữ trắng */
+.btn:hover {
+    background: green;
+    color: white;
+    border-color:black;
+}

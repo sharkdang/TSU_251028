@@ -1,0 +1,37 @@
+Khi học CSS thì nên học theo từng nhóm
+- Văn bản
+    +font-family
+    +font-size
+    +color
+    +text-align(căn lề)
+    +line-height(khoảng cách dòng)
+    +text-decoration(gạch chân, gạch ngang)
+    +text-transorm(chuyển đổi:uppercase,lowercase,capitalize)
+    +letter-sapcing(kc giữa kí tự)
+- Màu nền
+    +color
+    +img
+    +size
+    +position
+    +repeat(lặp lại ảnh)
+    +liner-gradient/radial(grandiant màu)
+-Vị trí và layout
+    +position(static,relative,absolute,fixed,sticky)
+    +display(block,inline,inline-block,flex,grid)
+    +flexbox(justify-content,align-items,gap)
+    +margin,padding
+    +opacity: độ trong suốt
+-Kích thước
+    +width,height
+    +min/max-width/height
+-border-box model
+    +border(viền : width ,style, color)
+    +border-raddius (bo góc)
+    +box-shadow (bóng hộp)
+    +box-sizing(border-box,content-box)
+-transition (tạo hiệu ứng chuyển đổi mượt và các trạng thái của thuộc tính)
+    +property:width,color,...
+    +duration:thời gian hiệu ứng chuyển đổi 
+    +timing-funtion:tốc độ (ease,linear,ease-in,..)
+    +delay
+-animation

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+.box-parent {
+    height:500px;
+    width:500px;
+    border:1px solid black;
+    background-color: lime;
+    position:relative;
+}
+.navbar{
+    height:50px;
+    width:100%;
+    background-color: grey; 
+    text-align: center;
+    position: sticky;
+    top:0;
+    left:0;
+}
+.btn-back{
+    position :fixed;
+    bottom:30px;
+    right:30px;
+}
+.overlay{
+    position: fixed;
+    top:0;
+    left:0;
+    top:0;
+    bottom:0; 
+    background-color: rgba(0,0,0,0.5);
+}

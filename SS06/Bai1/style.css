@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    background-color:blue;
+    margin: 50px auto;
+    text-align: center;  
+    font-size: 24px;
+    color: white;
+    transition: all 0.3s ease;
+}
+a {
+    text-decoration: none;
+    color: rgb(64, 63, 63);  
+}

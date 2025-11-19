@@ -1,0 +1,15 @@
+div {
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: grey;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 1s ease-in;
+}
+
+div:hover {
+    background-color: blue;
+}

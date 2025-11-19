@@ -4,14 +4,29 @@
     box-sizing: border-box;
 }
 div{
-    background-color:blue;
+    background-color:rgb(82, 82, 239);
     margin: 50px auto;
     text-align: center;  
     font-size: 24px;
     color: white;
-    transition: all 0.3s ease;
 }
+
 a {
     text-decoration: none;
-    color: rgb(64, 63, 63);  
+    color: rgb(64, 63, 63);
+    margin: 10px;
+    padding-bottom: 10px; 
+}
+
+
+p {
+    display: inline-block;
+    font-size: 18px; 
+}
+footer{
+    
+    margin-top: 20px;
+}
+strong{
+    color:blue
 }

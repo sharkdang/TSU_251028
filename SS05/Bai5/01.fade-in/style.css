@@ -1,0 +1,17 @@
+div {
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: grey;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 1s ease-in;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+div:hover {
+    background-color: rgb(221, 221, 229);
+    color:black
+}

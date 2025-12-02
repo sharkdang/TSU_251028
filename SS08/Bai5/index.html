@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-
     <title>Hotel payment</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="top-header">
@@ -23,25 +26,29 @@
         </div>
         
     </div>
-    <div class="container">
-        <div class="left">
+    <div >
+        <div class="container">
             <p class="list">Home > Hotel list > Hotel details > Confirm and pay </p>
-
             <h1>Confirm your Book </h1>
-
             <h2>Your tour</h2>
             <div class="box">
-                <label>Date</label>
-                <p>June 27 - 30, 2025 </p>
-                
-            </div>
+                <div class="left">
+                    <h4>Date</h4>
+                    <p>June 27 - 30, 2020</p>
+                </div>
+                    <i class="fa-solid fa-pen"></i>
+                </div>
 
-            <div class="box">
-                <label>Traveller</label>
-                <p>1 Passenger</p>
+                <div class="box">
+                <div class="left">
+                    <h4>Traveller</h4>
+                    <p>1 Passenger</p>
+                </div>
+                <i class="fa-solid fa-pen"></i>
             </div>
         </div>
-        <div class="right">
+    </div>
+    <aside class="aside">
             <div class="hotel-box">
                 <h4>Switzerland Hotel and Places to Stay</h4>
                 <p>4.8 (100 reviews)</p>
@@ -52,10 +59,12 @@
                     <div>
                         <label>Check in</label>
                         <p>Jun 27, 2025</p>
+                        
                     </div>
                     <div>
                         <label>Check out</label>
                         <p>June 30, 2025</p>
+                        
                     </div>
                 </div>
                 <div class="guest">
@@ -84,9 +93,8 @@
             </div>
             <div class="report">Report this property</div>
             </div>
-        </div>
-    </div>
-    <div>
+        </aside>
+    <div class="cre">
         <h1>Credit Card</h1>
             <div class="payment" >
             <img src="img/logomatercard.png" alt="mastercard">
@@ -95,43 +103,31 @@
             <img src="img/logoamerican.jpg" alt="american">
             </div>
             
-            <div class="card">
-                <div class="card-blue">
-                    <p>8948 xxxx 7894</p>
+            <div class="card-container">
+            <div class="card card-blue">
+            <div class="card-number">8948 &nbsp; xxxx &nbsp; xxxx &nbsp; 7894</div>
+                <div class="card-footer">
                     <span>Holder Name</span>
-                    <img src="img/logomatercard.png">
+                    <img src="img/logomatercard.png" class="brand-logo" alt="Mastercard">
                 </div>
-                <div class="card-green">
-                    <p>8948 xxxx 7894</p>
-                    <span>Holder Name</span>
-                    <img src="img/logovisa.png">
-                </div>
-                <label>Card Number</label>
-                <div class="input-field full">
-                    <input type="text" placeholder="5884 6241 4444 3333">
-                    <span class="checkmark">✔</span>
-                </div>
-
-                <div class="row">
-                    <div class="col">
-                        <label>Expiry Date</label>
-                        <div class="input-field">
-                            <input type="text" placeholder="MM / YY">
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <label>CVC/CVV</label>
-                        <div class="input-field">
-                            <input type="password" placeholder="****">
-                        </div>
-                    </div>
-                </div>
-                        
             </div>
+            
+
+            <div class="card card-green">
+                
+            <div class="card-number">8948 &nbsp; xxxx &nbsp; xxxx &nbsp; 7894</div>
+                <div class="card-footer">
+                    <span>Holder Name</span>
+                    <img src="img/logojcb.jpg" class="brand-logo" alt="Visa">
+                </div>
+            </div>
+            </div>
+            
             <div class="checkbox-row">
             <input type="checkbox" checked>
             <span>Save Card</span>
+            </div>
+            </div>
             </div>
     </div>
 

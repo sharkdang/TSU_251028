@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lí danh sách sinh viên</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quản lí danh sách sinh viên </h1>
+        <div class="student-form">
+            <input type="text" id="student-name" placeholder="Tên sinh viên">
+            <input type="text" id="student-age" placeholder="Tuổi">
+            <input type="text" id="student-class" placeholder="Lớp">
+            <button id="add-student-btn">Thêm sinh viên</button>
+            <input type="text" id="search-input" placeholder="Tìm kiếm theo tên">
+        </div>
+        <!-- Bảng danh sách -->
+        <table >
+            <thead>
+                <tr>
+                    <th>Tên</th>
+                    <th>Tuổi</th>
+                    <th>Lớp</th>
+                    <th>Hành động</th>
+                </tr>
+            </thead>
+            <tbody id="studentList">
+            </tbody>
+
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

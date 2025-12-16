@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.student-form {
+  margin: 20px;
+  margin-bottom: 10px;
+}
+.student-form input {
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.student-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(35, 35, 135);
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th,
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: #f1f1f1;
+}
+
+.action-column {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn-edit {
+  background-color: rgb(223, 223, 13);
+  color: white;
+}
+
+.btn-edit:hover {
+  background-color:rgb(117, 117, 3);
+}
+
+.btn-delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #820f07;
+}
